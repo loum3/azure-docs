@@ -30,6 +30,8 @@ In this case, start with the list of attributes in this topic and identify those
 
 > [!WARNING]
 > When deselecting attributes, you should be cautious and only deselect those attributes absolutely not possible to synchronize. Unselecting other attributes might have a negative impact on features.
+> [!NOT SUPPORTED]
+> The Microsoft 365 Product group does not support filtering the default set of attributes when using Azure Active Directory Connect to synchronize the Active Directory to the Azure Active Directory and use the Exchange Hybrid Configuration Wizard. 
 >
 >
 
