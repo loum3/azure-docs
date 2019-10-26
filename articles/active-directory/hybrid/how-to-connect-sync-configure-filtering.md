@@ -19,7 +19,7 @@ ms.collection: M365-identity-device-management
 ---
 
 # Azure AD Connect sync: Configure filtering
-By using filtering, you can control which objects appear in Azure Active Directory (Azure AD) from your on-premises directory. The default configuration takes all objects in all domains in the configured forests. In general, this is the recommended configuration. Users using Office 365 workloads, such as Exchange Online and Skype for Business, benefit from a complete Global Address List so they can send email and call everyone. With the default configuration, they would have the same experience that they would have with an on-premises implementation of Exchange or Lync.
+By using filtering, you can control which objects appear in Azure Active Directory (Azure AD) from your on-premises directory. The default configuration takes all objects in all domains in the configured forests. In general, this is the recommended configuration. Users using Office 365 workloads, such as Exchange Online and Skype for Business, benefit from a complete Global Address List so they can send email and call everyone. With the default configuration, they would have the same experience that they would have with an on-premises implementation of Exchange or Lync. The Microsoft 365 Product Group does not support filtering the default set of attributes when using Azure Active Directory Connect to synchronize the Active Directory to the Azure Active Directory when using the Exchange Hybrid Configuration Wizard. Modifying anything on this page will put the customer in an unsupported state.
 
 In some cases however, you're required make some changes to the default configuration. Here are some examples:
 
